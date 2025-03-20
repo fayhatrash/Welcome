@@ -1,0 +1,136 @@
+/* Import Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: white;
+    padding: 80px 10%;
+    height: 80vh;
+}
+
+.hero-content {
+    max-width: 50%;
+    text-align: left; /* Align text to the left */
+}
+
+/* Text Styling */
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: 300; /* Light */
+    text-align: left;
+}
+
+.hero-content span.light {
+    font-weight: 300; /* Light */
+}
+
+.hero-content span.medium-italic {
+    font-weight: 500; /* Medium */
+    font-style: italic;
+}
+
+/* Paragraph Styling */
+.hero-content p {
+    margin: 15px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn.red {
+    background: #FF3333;
+    color: white;
+}
+
+.btn.white {
+    background: white;
+    color: black;
+    border: 2px solid #ccc;
+}
+
+/* Hero Image */
+.hero-image img {
+    max-width: 200px;
+}
+
+/* About Section */
+.about {
+    text-align: left; /* Align "About Me" section to the left */
+    background: white;
+    padding: 50px 10%;
+}
+
+.about h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.highlight {
+    color: #FF3333;
+    font-weight: bold;
+}
+
+.cta a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn.red {
+    background: #FF3333;
+    color: white;
+}
+
+.btn.red:hover {
+    background: #cc0000; /* Darker red on hover */
+}
