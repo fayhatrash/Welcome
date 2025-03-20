@@ -176,4 +176,49 @@ body {
         font-size: 14px;
         padding: 10px;
     }
+}/* 📱 Mobile View (ONLY for screens smaller than 768px) */
+@media (max-width: 768px) {
+    /* Center the logo and make it bigger */
+    .logo {
+        display: block;
+        margin: 0 auto;
+        width: 180px; /* Adjust size */
+        height: auto;
+    }
+
+    /* Center align all text */
+    .text-container {
+        text-align: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    /* "Hi, I'm Fay" text */
+    .intro-text {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    /* "Graphic Designer & Branding" stays in the middle */
+    .main-title {
+        font-size: 28px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    /* Stack the 3 boxes vertically */
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .box {
+        width: 80%; /* Bigger boxes */
+        text-align: center;
+        padding: 15px;
+    }
 }
+
